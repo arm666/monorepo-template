@@ -1,0 +1,27 @@
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please-apps
+
+jobs:
+  log-branch-name:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log branch name for push
+        if: github.event_name == 'push'
+        run: |
+          echo "Branch Name: ${GITHUB_REF#refs/heads/}"
+
+      - name: Log branch name for pull request
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "Branch Name: $GITHUB_HEAD_REF"
