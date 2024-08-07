@@ -13,6 +13,4 @@ jobs:
       - name: Run Release Please Action
         uses: googleapis/release-please-action@v4
         with:
-          target-branch: development
-          config-file: "release-please-packages-config.json"
-          manifest-file: ".release-please-packages-manifest.json"
+          labels: "autorelease: pending"
