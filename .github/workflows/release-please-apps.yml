@@ -1,12 +1,19 @@
+name: Release Please - Apps
+
 on:
   push:
     branches:
       - staging
 
-name: release-please
-
 jobs:
   release-please:
+    name: Release Please
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v4
+      - name: Run Release Please Action
+        uses: googleapis/release-please-action@v4
+        with:
+          target-branch: staging
+          config-file: "release-please-apps-config.json"
+          manifest-file: ".release-please-apps-manifest.json"
+          token: ${{ secrets.GITHUB_TOKEN }}
