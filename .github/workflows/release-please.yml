@@ -12,8 +12,5 @@ jobs:
     steps:
       - name: Run Release Please Action
         uses: googleapis/release-please-action@v4
-<<<<<<< HEAD:.github/workflows/release-please-apps.yml
         with:
           labels: "autorelease: pending"
-=======
->>>>>>> 71e347f3eec8eab3c58d7a4a5ba6267b475672aa:.github/workflows/release-please.yml
