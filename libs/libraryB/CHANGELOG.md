@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/arm666/monorepo-template/compare/library-b-v1.0.0...library-b-v1.0.1) (2024-08-07)
+
+
+### Bug Fixes
+
+* bug 2 ([0ef8253](https://github.com/arm666/monorepo-template/commit/0ef8253441dee5855dc9276569b3b1d953f8cfed))
+
 ## 1.0.0 (2024-08-07)
 
 

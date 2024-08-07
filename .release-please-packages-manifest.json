@@ -1,6 +1,4 @@
 {
-  "library-a": "0.0.1",
-  "library-b": "0.0.1",
-  "libs/libraryB": "1.0.0",
+  "libs/libraryB": "1.0.1",
   "libs/libraryA": "1.0.0"
 }
