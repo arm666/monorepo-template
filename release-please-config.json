@@ -4,7 +4,7 @@
     "apps/appA": {}
   },
   "separate-pull-requests": true,
-  "labels": ["autorelease: pending", "No Notification"],
+  "labels": "autorelease: pending,No Notification",
   "changelog-sections": [
     { "type": "BREAKING CHANGE", "section": "⚠️ BREAKING CHANGES" },
     { "type": "feat", "section": "Features" },

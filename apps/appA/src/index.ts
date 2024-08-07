@@ -1,3 +1,3 @@
-console.log('Library B v0.0.1');
+console.log('App A');
 
 export {};
