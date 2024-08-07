@@ -1,0 +1,19 @@
+{
+  "release-type": "node",
+  "packages": {
+    "libs/libraryA": { "package-name": "library-a" },
+    "libs/libraryB": { "package-name": "library-b" }
+  },
+  "separate-pull-requests": true,
+  "label": ["autorelease: pending", "No Notification"],
+  "pull-request-header": ":sparkles: Package is Ready for Release :sparkles:",
+  "changelog-sections": [
+    { "type": "BREAKING CHANGE", "section": "⚠️ BREAKING CHANGES" },
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "bug", "section": "Bug Fixes" },
+    { "type": "docs", "section": "Chores" },
+    { "type": "deps", "section": "Chores" },
+    { "type": "chore", "section": "Chores" }
+  ]
+}
