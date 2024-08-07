@@ -1,13 +1,14 @@
+name: Release Please - Apps
+
 on:
   push:
     branches:
       - staging
 
-name: release-please
-
 jobs:
   release-please:
+    name: Release Please
     runs-on: ubuntu-latest
     steps:
-        - name: Run Release Please Action
+      - name: Run Release Please Action
         uses: googleapis/release-please-action@v4
