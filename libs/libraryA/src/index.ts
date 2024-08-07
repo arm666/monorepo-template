@@ -6,5 +6,6 @@ console.log('feat 2');
 console.log('feat 3');
 console.log('feat 4');
 console.log('feat 5');
+console.log('feat 6');
 
 export {};
