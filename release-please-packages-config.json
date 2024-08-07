@@ -5,7 +5,7 @@
     "libs/libraryB": { "package-name": "library-b" }
   },
   "separate-pull-requests": true,
-  "label": ["autorelease: pending", "No Notification"],
+  "label": "autorelease: pending,No Notification",
   "pull-request-header": ":sparkles: Package is Ready for Release :sparkles:",
   "changelog-sections": [
     { "type": "BREAKING CHANGE", "section": "⚠️ BREAKING CHANGES" },
