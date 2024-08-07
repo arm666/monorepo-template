@@ -1,6 +1,5 @@
 {
   "release-type": "node",
-  "bootstrap-sha": "4cb8372736fcb91c735d2ee98aa0571e6bb53680",
   "packages": {
     "apps/appA": {}
   },
